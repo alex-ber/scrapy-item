@@ -1,5 +1,7 @@
 ## scrapy-item
 
+Item with general/unknown/dynamic fields.
+Variation of https://github.com/WilliamKinaan/ScrapyDynamicItems - extracting only essential part.
 See CHANGELOG.md for detail description.
 
 
