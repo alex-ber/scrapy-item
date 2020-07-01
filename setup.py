@@ -5,12 +5,12 @@ from setuptools import setup
 
 
 #VERSION should be defined before importing UploadCommand
-VERSION = '0.0.1a1'
+VERSION = '0.0.1rc1'
 from alexber.utils import UploadCommand
 NAME = 'scrapy-item'
 SHORT_NAME = 'scrapyitem'
 VCS_URL = 'https://github.com/alex-ber/scrapy-scrapyitem'
-DESCRIPTION = 'TBD'
+DESCRIPTION = 'Item with general/unknown/dynamic fields'
 AUTHOR = 'Alexander Berkovich'
 
 
@@ -78,7 +78,7 @@ try:
         setup_requires=['pytest-runner'],
         namespace_packages=('alexber',),
         license='Apache 2.0',
-        keywords='Scrapy state',
+        keywords='Scrapy dynamic item general unknown',
         classifiers=[
             # See: https://pypi.python.org/pypi?:action=list_classifiers
             'Development Status :: 5 - Production/Stable',
@@ -92,6 +92,8 @@ try:
             'Programming Language :: Python :: 3 :: Only',
             'Programming Language :: Python :: 3.6',
             'Programming Language :: Python :: 3.7',
+            'Programming Language :: Python :: 3.8',
+            'Programming Language :: Python :: 3.9',
             'Programming Language :: Python :: Implementation :: CPython',
             "Topic :: Utilities",
             'Topic :: Software Development :: Libraries :: Python Modules',
