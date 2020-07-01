@@ -1,2 +1,1 @@
 Scrapy
-alex-ber-utils>=0.5.2

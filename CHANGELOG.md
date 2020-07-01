@@ -6,7 +6,12 @@ All notable changes to this project will be documented in this file.
 ## [Unrelased]
  
 
-## [0.0.1] - TBD
+## [0.0.1] - 01/07/2020
+### Added 
+- `GeneralItem` class in `alexber.scrapyitem` module. Item with general/unknown/dynamic fields.
+Variation of `https://github.com/WilliamKinaan/ScrapyDynamicItems` - extracting only essential part.
+
+
 
 <!--
 ### Added 
